@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <!-- link css  -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <!-- place navbar here -->
+    </header>
+    <main>
+      <div class="baiTapMot">
+        <h1>BT1: Tinh tien luong nhan vien</h1>
+        <div class="input-group mb-3">
+          <input
+            id="nhapSoNgayLuong"
+            type="text"
+            class="form-control"
+            placeholder="nhap so ngay luon"
+            aria-label="Recipient's username"
+            aria-describedby="button-addon2"
+          />
+          <button
+            class="btn btn-outline-secondary"
+            type="button"
+            id="button-addon2"
+            onclick="tinhTongLuong()"
+          >
+            Button
+          </button>
+        </div>
+        <div id="hienThiKetQua" class="bg-success"></div>
+      </div>
+      <div class="baiTapHai">
+        <h1>BT2: Tinh gia trung binh</h1>
+        <div class="input-group mb-3">
+          <input
+            id="nhapSoThuc1"
+            type="text"
+            class="form-control"
+            placeholder="nhap so bat ki"
+            aria-label="Recipient's username"
+            aria-describedby="button-addon2"
+          />
+          <input
+            id="nhapSoThuc2"
+            type="text"
+            class="form-control"
+            placeholder="nhap so bat ki"
+            aria-label="Recipient's username"
+            aria-describedby="button-addon2"
+          />
+          <input
+            id="nhapSoThuc3"
+            type="text"
+            class="form-control"
+            placeholder="nhap so bat ki"
+            aria-label="Recipient's username"
+            aria-describedby="button-addon2"
+          />
+          <input
+            id="nhapSoThuc4"
+            type="text"
+            class="form-control"
+            placeholder="nhap so bat ki"
+            aria-label="Recipient's username"
+            aria-describedby="button-addon2"
+          />
+          <input
+            id="nhapSoThuc5"
+            type="text"
+            class="form-control"
+            placeholder="nhap so bat ki"
+            aria-label="Recipient's username"
+            aria-describedby="button-addon2"
+          />
+          <button
+            class="btn btn-outline-secondary"
+            type="button"
+            id="button-addon2"
+            onclick="tinhTrungBinh()"
+          >
+            Button
+          </button>
+        </div>
+        <div id="hienThiKetQua2" class="bg-success"></div>
+      </div>
+      <div class="baiTapBa">
+        <h1>BT3: Quy Doi Tien USD</h1>
+        <div class="input-group mb-3">
+          <input
+            id="nhapSoTienUSD"
+            type="text"
+            class="form-control"
+            placeholder="nhap so tien USD"
+            aria-label="Recipient's username"
+            aria-describedby="button-addon2"
+          />
+          <button
+            class="btn btn-outline-secondary"
+            type="button"
+            id="button-addon2"
+            onclick="tinhTienQuyDoi()"
+          >
+            Button
+          </button>
+        </div>
+        <div id="hienThiKetQua3" class="bg-success"></div>
+      </div>
+      <div class="baiTapBon">
+        <h1>BT4: Tinh chu vi va dien tich</h1>
+        <div class="input-group mb-3">
+          <input
+            id="nhapSoChieuDai"
+            type="text"
+            class="form-control"
+            placeholder="Nhap So Chieu Dai"
+            aria-label="Recipient's username"
+            aria-describedby="button-addon2"
+          />
+          <input
+            id="nhapSoChieuRong"
+            type="text"
+            class="form-control"
+            placeholder="Nhap So Chieu Rong"
+            aria-label="Recipient's username"
+            aria-describedby="button-addon2"
+          />
+          <button
+            class="btn btn-outline-secondary"
+            type="button"
+            id="button-addon2"
+            onclick="tinhChuViDienTich()"
+          >
+            Button
+          </button>
+        </div>
+        <div id="hienThiKetQuaChuVi4" class="bg-success"></div>
+        <div id="hienThiKetQuaDienTich4" class="bg-success"></div>
+      </div>
+      <div class="baiTapNam">
+        <h1>BT5: Tinh tong 2 ky so</h1>
+        <div class="input-group mb-3">
+          <input
+            id="nhapSoKySo"
+            type="text"
+            class="form-control"
+            placeholder="nhap so 2 chu so bat ki"
+            aria-label="Recipient's username"
+            aria-describedby="button-addon2"
+          />
+          <button
+            class="btn btn-outline-secondary"
+            type="button"
+            id="button-addon2"
+            onclick="tinhTongKySo()"
+          >
+            Button
+          </button>
+        </div>
+        <div id="hienThiKetQua5" class="bg-success"></div>
+      </div>
+    </main>
+    <footer>
+      <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
